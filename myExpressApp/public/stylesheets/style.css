@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #0a0a2f;
+  color: #ffffff;
+  text-align: center;
+}
+
+.welcome-container {
+  display: flex;          /* put children side by side */
+  align-items: center;    /* vertically center image and text */
+  justify-content: center;
+  gap: 10px;              /* space between image and text */
+}
+.welcome-container p {
+  margin: 0;              /* remove default paragraph margin */
+}
+
+.input-container {
+  display: flex;           /* optional: label and input side by side */
+  flex-direction: column;  /* or row if you want them side by side */
+  gap: 5px;
+  margin: 10px 0;
+}
+#Location {
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+a {
+  color: #ffffff;
+}

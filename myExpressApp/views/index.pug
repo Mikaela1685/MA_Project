@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  div.welcome-container
+    img(src="/images/cloud.png", width="30", alt="Cloud")
+    p Welcome to #{message}
+    img(src="/images/cloud.png", width="30", alt="Cloud")
+  
+  div.input-container
+    label(for="Location") Enter your Location:
+    input#Location(type="text", placeholder="Your Location here")
+    button#submitBtn Get Suggestions
+
