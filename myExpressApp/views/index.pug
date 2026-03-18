@@ -9,6 +9,37 @@ block content
   
   div.input-container
     label(for="Location") Enter your Location:
-    input#Location(type="text", placeholder="Your Location here")
+    input#Location(type="text", placeholder="Your Location here", style='width: 30%; padding: 10px;')
     button#submitBtn Get Suggestions
+
+  p#error-message
+
+  div#results
+    extends layout
+
+block content
+  h1= title
+  div.welcome-container
+    img(src="/images/cloud.png", width="30", alt="Cloud")
+    p Welcome to #{message}
+    img(src="/images/cloud.png", width="30", alt="Cloud")
+  
+  div.input-container
+    label(for="Location") Enter your Location:
+    input#Location(type="text", placeholder="Your Location here", style='width: 30%; padding: 10px;')
+    button#submitBtn Get Suggestions
+
+  p#error-message
+
+  div#results(style="display:none;")
+    p#local
+    p#temp
+    p#rain
+    img#topImg(width="150")
+    img#pantImg(width="150")
+    img#rainImg(width="150")
+
+
+
+
 

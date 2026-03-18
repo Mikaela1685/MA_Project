@@ -21,6 +21,11 @@ body {
   flex-direction: column;  /* or row if you want them side by side */
   gap: 5px;
   margin: 10px 0;
+  align-items: center;
+}
+
+input {
+  text-align: center;
 }
 #Location {
   padding: 5px;
@@ -28,6 +33,24 @@ body {
   width: 200px;
 }
 
+#submitBtn {
+  background-color: #ffffff;
+  color: #ff9900;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+#submitBtn:hover {
+  background-color: #fff563;
+}
+
 a {
   color: #ffffff;
+}
+
+#results {
+  align-items: center;
+  align-content: center;
 }
