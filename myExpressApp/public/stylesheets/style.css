@@ -53,4 +53,5 @@ a {
 #results {
   align-items: center;
   align-content: center;
+  display: block; /*these are meant to centre the image but they aint doing that figure this out*/
 }
